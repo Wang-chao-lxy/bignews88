@@ -56,6 +56,10 @@
     </div>
 </body>
 <script>
- 
+    // 实现点击文章管理菜单后实现展开和隐藏下拉文章管理下拉菜单
+    $('.level01:eq(1)').click(function () {
+        $(this).next('.level02').slideToggle()
+    })
+
 </script>
 </html>
